@@ -1,0 +1,78 @@
+*{    /*for the whole page*/
+    margin: 0;
+    padding:0;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    height: 5rem;/*gives height of the block*/
+    line-height: 5rem; /*to get text down in middle of the block give same value as that of height*/
+}
+
+.choice{ /*.something we do to select particular div aur para by the name of choice*/
+
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    cursor: pointer;
+    opacity: 0.5;/*making image blurred*/
+    transform: scale(1.2);/*image getting enlarged*/
+
+}
+
+img{
+    height: 23rem;
+    width: 23rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+
+.choices{
+    display:flex; /* to allign the inages*/
+    justify-content: center;
+    align-items: center;
+    
+    margin: 3rem;
+
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 7rem;
+
+}
+
+#user-score , #computer-score{
+    font-size: 6rem;
+
+
+}
+
+#msg{
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(0, 8, 255);
+    
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.msg-container{
+    margin-top: 3rem;
+    
+}
